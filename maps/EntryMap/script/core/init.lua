@@ -1,0 +1,1 @@
+require("core.cache_attr")

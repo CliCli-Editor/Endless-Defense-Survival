@@ -1,0 +1,4491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<Sub/>
+	<Entity type="ParticleSystem">
+		<Name/>
+		<Emitters count="19" ordered="true">
+			<Element index="0">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>lizi</Name>
+						<Enable>true</Enable>
+						<Elements count="12" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataSprite">
+										<Name/>
+										<Enable>true</Enable>
+										<Facing>Camera</Facing>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+										<Scale rawdata="AACAPwAAgD8=">(1,1)</Scale>
+										<Pivot rawdata="AAAAAAAAAAA=">(0,0)</Pivot>
+										<Patch count="5" ordered="true">
+											<Element index="0" rawdata="AABQvwAAWD8AAMA9AACgPQ==">(-0.8125,0.84375,0.09375,0.078125)</Element>
+											<Element index="1" rawdata="AAAqPwAAWD8AAFU/AACgPQ==">(0.6640625,0.84375,0.83203125,0.078125)</Element>
+											<Element index="2" rawdata="mplxP8zMjL7NzHg/MzMjPw==">(0.94375002384185791,-0.27499997615814209,0.97187501192092896,0.63749998807907104)</Element>
+											<Element index="3" rawdata="AAAgPgAAiL8AABQ/AACEPw==">(0.15625,-1.0625,0.578125,1.03125)</Element>
+											<Element index="4" rawdata="AABQvwAAEL8AAMA9AABIPw==">(-0.8125,-0.5625,0.09375,0.78125)</Element>
+										</Patch>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>20</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">34bddd7a-ef12-4e9e-af2a-09fdb5924b22</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">5</Item>
+												<Item key="InvFadeDistance">0</Item>
+												<Item key="Local">false</Item>
+												<Item key="ModulateColor">(10,10,10,10)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>false</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AACAPwAAgD8AAIA/">(1,1,1)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AADgQA==">7</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACgQA==">5</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>5</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="zcxMPg==">0.200000003</MinValue>
+													<MaxValue rawdata="zczMPg==">0.400000006</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="CtcjPQ==">0.0399999991</MinValue>
+													<MaxValue rawdata="CtejPQ==">0.0799999982</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitPosition">
+										<Name/>
+										<Enable>true</Enable>
+										<PositionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionCylinder">
+													<Name/>
+													<Center rawdata="AAAAAAAAgD8AAAAA">(0,1,0)</Center>
+													<Axis rawdata="AAAAAAAAgD8AAAAA">(0,1,0)</Axis>
+													<MinRadius rawdata="AAAAPw==">0.5</MinRadius>
+													<MaxRadius rawdata="AACAPw==">1</MaxRadius>
+												</Entity>
+											</Root>
+										</PositionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSubUV">
+										<Name/>
+										<Enable>true</Enable>
+										<TileIndexMin>0</TileIndexMin>
+										<TileIndexMax>16</TileIndexMax>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="8">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitVelocity">
+										<Name/>
+										<Enable>true</Enable>
+										<VelocityDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionCylinder">
+													<Name/>
+													<Center rawdata="AAAAAAAAcEEAAAAA">(0,15,0)</Center>
+													<Axis rawdata="AAAAAAAAoEAAAAAA">(0,5,0)</Axis>
+													<MinRadius rawdata="AAAAAA==">0</MinRadius>
+													<MaxRadius rawdata="AACAPw==">1</MaxRadius>
+												</Entity>
+											</Root>
+										</VelocityDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="9">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="1" ordered="true">
+												<Element index="0">
+													<Time rawdata="DnTIPQ==">0.0978776067</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="10">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementAlphaByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<AlphaCurve>
+											<Nodes count="4" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="SqsYPg==">0.149090916</Time>
+													<Value rawdata="AQCAPw==">1.00000012</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="GScSPw==">0.570909083</Time>
+													<Value rawdata="AQCAPw==">1.00000012</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+											</Nodes>
+										</AlphaCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="11">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementStream">
+										<Name/>
+										<Enable>false</Enable>
+										<HalfLife rawdata="rkchPw==">0.629999995</HalfLife>
+										<Direction rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Direction>
+										<AlwaysLocal>false</AlwaysLocal>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="1">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>glow01</Name>
+						<Enable>false</Enable>
+						<Elements count="9" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataSprite">
+										<Name/>
+										<Enable>true</Enable>
+										<Facing>Camera</Facing>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+										<Scale rawdata="AAAgQAAAYEA=">(2.5,3.5)</Scale>
+										<Pivot rawdata="AAAAAAAAAAA=">(0,0)</Pivot>
+										<Patch count="4" ordered="true">
+											<Element index="0" rawdata="AABkvwAAdD8AAGA9AADAPA==">(-0.890625,0.953125,0.0546875,0.0234375)</Element>
+											<Element index="1" rawdata="AABwPwAAdD8AAHg/AADAPA==">(0.9375,0.953125,0.96875,0.0234375)</Element>
+											<Element index="2" rawdata="AABwPwAAaL8AAHg/AAB0Pw==">(0.9375,-0.90625,0.96875,0.953125)</Element>
+											<Element index="3" rawdata="AABkvwAAaL8AAGA9AAB0Pw==">(-0.890625,-0.90625,0.0546875,0.953125)</Element>
+										</Patch>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">777c6ead-0236-4d9b-ae1c-9d06763f4b5c</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">1</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="InvFadeDistance">0</Item>
+												<Item key="Local">true</Item>
+												<Item key="ModulateColor">(1,1,1,0.2)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="mpkZPwAAgD+amRk/">(0.60000002384185791,1,0.60000002384185791)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAGZm5j8AAAAA">(0,1.7999999523162842,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AAAAAA==">0</DepthOffset>
+										<DelayTime rawdata="zczMPQ==">0.100000001</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="zczMPQ==">0.100000001</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="mpmZPw==">1.20000005</MinValue>
+													<MaxValue rawdata="mpmZPw==">1.20000005</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AADAPw==">1.5</MinValue>
+													<MaxValue rawdata="AADAPw==">1.5</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="1" ordered="true">
+												<Element index="0">
+													<Time rawdata="z6VaPg==">0.213523135</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSizeByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeCurve>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="JUkSPg==">0.142857149</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+											</Nodes>
+										</SizeCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="8">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementAlphaByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<AlphaCurve>
+											<Nodes count="6" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="5Qj9PQ==">0.123552121</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="M0RpPg==">0.227799222</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="yY3cPg==">0.430769235</Time>
+													<Value rawdata="rkdhPg==">0.219999999</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="1UotPw==">0.676923096</Time>
+													<Value rawdata="zczMPQ==">0.100000001</Value>
+												</Element>
+												<Element index="5">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+											</Nodes>
+										</AlphaCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="2">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>suduxian</Name>
+						<Enable>true</Enable>
+						<Elements count="11" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataSprite">
+										<Name/>
+										<Enable>true</Enable>
+										<Facing>VelocityCamera</Facing>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+										<Scale rawdata="zcxMPgAAgEA=">(0.20000000298023224,4)</Scale>
+										<Pivot rawdata="AAAAAAAAAAA=">(0,0)</Pivot>
+										<Patch count="4" ordered="true">
+											<Element index="0" rawdata="AABsvwAAbD8AACA9AAAgPQ==">(-0.921875,0.921875,0.0390625,0.0390625)</Element>
+											<Element index="1" rawdata="AABwPwAAbD8AAHg/AAAgPQ==">(0.9375,0.921875,0.96875,0.0390625)</Element>
+											<Element index="2" rawdata="AABwPwAAcL8AAHg/AAB4Pw==">(0.9375,-0.9375,0.96875,0.96875)</Element>
+											<Element index="3" rawdata="AABsvwAAcL8AACA9AAB4Pw==">(-0.921875,-0.9375,0.0390625,0.96875)</Element>
+										</Patch>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>10</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">4369bae3-fcc4-4cfd-a22e-a9bba2ad10af</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">5</Item>
+												<Item key="InvFadeDistance">1</Item>
+												<Item key="Local">true</Item>
+												<Item key="ModulateColor">(2,2,2,2)</Item>
+												<Item key="Soft">true</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AACAPwAAgD8AAIA/">(1,1,1)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAD8AAAAA">(0,0.5,0)</Translation>
+										<FadeDistance rawdata="AACAPw==">1</FadeDistance>
+										<DepthOffset rawdata="AADgQA==">7</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AADgQA==">7</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>5</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitPosition">
+										<Name/>
+										<Enable>true</Enable>
+										<PositionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionCylinder">
+													<Name/>
+													<Center rawdata="AAAAAAAAgD8AAAAA">(0,1,0)</Center>
+													<Axis rawdata="AAAAAAAAgD8AAAAA">(0,1,0)</Axis>
+													<MinRadius rawdata="AAAAPw==">0.5</MinRadius>
+													<MaxRadius rawdata="AACAPw==">1</MaxRadius>
+												</Entity>
+											</Root>
+										</PositionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitVelocity">
+										<Name/>
+										<Enable>true</Enable>
+										<VelocityDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformVector3">
+													<Name/>
+													<MinValue rawdata="AAAAAAAAoEAAAAAA">(0,5,0)</MinValue>
+													<MaxValue rawdata="AAAAAAAAoEEAAAAA">(0,20,0)</MaxValue>
+												</Entity>
+											</Root>
+										</VelocityDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="zcxMPg==">0.200000003</MinValue>
+													<MaxValue rawdata="zczMPg==">0.400000006</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize2D">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistributionX>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="mpkZPg==">0.150000006</MinValue>
+													<MaxValue rawdata="AACAPg==">0.25</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistributionX>
+										<SizeDistributionY>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="j8L1PQ==">0.119999997</MinValue>
+													<MaxValue rawdata="exQuPg==">0.170000002</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistributionY>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="8">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="6" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="RU1JPHfjCj4zg7E+AAAAAA==">(0.012286488898098469,0.13563333451747894,0.34670409560203552,0)</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="RU1JPHfjCj4zg7E+AAAAAA==">(0.012286488898098469,0.13563333451747894,0.34670409560203552,0)</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="FHoKPg==">0.135231316</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="kYnRPg==">0.409252673</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="5">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="9">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSize2DByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeCurveX>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="bMS/Pg==">0.374545455</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="CtcjPg==">0.159999996</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveX>
+										<SizeCurveY>
+											<Nodes count="4" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="XI+CPw==">1.01999998</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="jfjXPQ==">0.105454542</Time>
+													<Value rawdata="AADAPw==">1.5</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="j8L1Pg==">0.479999989</Time>
+													<Value rawdata="AADAPw==">1.5</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="j8J1Pw==">0.959999979</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveY>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="10">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementStream">
+										<Name/>
+										<Enable>false</Enable>
+										<HalfLife rawdata="mpmZPg==">0.300000012</HalfLife>
+										<Direction rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Direction>
+										<AlwaysLocal>false</AlwaysLocal>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="3">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>glow02</Name>
+						<Enable>true</Enable>
+						<Elements count="9" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataSprite">
+										<Name/>
+										<Enable>true</Enable>
+										<Facing>Y</Facing>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+										<Scale rawdata="AACAPwAAgD8=">(1,1)</Scale>
+										<Pivot rawdata="AAAAAAAAAAA=">(0,0)</Pivot>
+										<Patch count="4" ordered="true">
+											<Element index="0" rawdata="AABkvwAAdD8AAGA9AADAPA==">(-0.890625,0.953125,0.0546875,0.0234375)</Element>
+											<Element index="1" rawdata="AABwPwAAdD8AAHg/AADAPA==">(0.9375,0.953125,0.96875,0.0234375)</Element>
+											<Element index="2" rawdata="AABwPwAAaL8AAHg/AAB0Pw==">(0.9375,-0.90625,0.96875,0.953125)</Element>
+											<Element index="3" rawdata="AABkvwAAaL8AAGA9AAB0Pw==">(-0.890625,-0.90625,0.0546875,0.953125)</Element>
+										</Patch>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">777c6ead-0236-4d9b-ae1c-9d06763f4b5c</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="InvFadeDistance">0</Item>
+												<Item key="Local">true</Item>
+												<Item key="ModulateColor">(1,1,1,0.2)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AACAPwAAgD8AAIA/">(1,1,1)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AAAAAA==">0</DepthOffset>
+										<DelayTime rawdata="zczMPQ==">0.100000001</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACQQA==">4.5</MinValue>
+													<MaxValue rawdata="AACQQA==">4.5</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="mpmZPw==">1.20000005</MinValue>
+													<MaxValue rawdata="mpmZPw==">1.20000005</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AAAAPw==">0.5</MinValue>
+													<MaxValue rawdata="AAAAPw==">0.5</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="1" ordered="true">
+												<Element index="0">
+													<Time rawdata="Lsg4Pg==">0.180451125</Time>
+													<Value rawdata="3rh9P964fT/euH0/AACAPw==">(0.99110209941864014,0.99110209941864014,0.99110209941864014,1)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSizeByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeCurve>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="7FG4Pg==">0.360000014</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="jyUePQ==">0.0386100374</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+											</Nodes>
+										</SizeCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="8">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementAlphaByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<AlphaCurve>
+											<Nodes count="5" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="EFDlPQ==">0.111969113</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="3WCKPg==">0.270270258</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="1UotPw==">0.676923096</Time>
+													<Value rawdata="zczMPQ==">0.100000001</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+											</Nodes>
+										</AlphaCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="4">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>glow011</Name>
+						<Enable>true</Enable>
+						<Elements count="9" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataSprite">
+										<Name/>
+										<Enable>true</Enable>
+										<Facing>Camera</Facing>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+										<Scale rawdata="AAAgQAAAYEA=">(2.5,3.5)</Scale>
+										<Pivot rawdata="AAAAAAAAAAA=">(0,0)</Pivot>
+										<Patch count="4" ordered="true">
+											<Element index="0" rawdata="AABkvwAAdD8AAGA9AADAPA==">(-0.890625,0.953125,0.0546875,0.0234375)</Element>
+											<Element index="1" rawdata="AABwPwAAdD8AAHg/AADAPA==">(0.9375,0.953125,0.96875,0.0234375)</Element>
+											<Element index="2" rawdata="AABwPwAAaL8AAHg/AAB0Pw==">(0.9375,-0.90625,0.96875,0.953125)</Element>
+											<Element index="3" rawdata="AABkvwAAaL8AAGA9AAB0Pw==">(-0.890625,-0.90625,0.0546875,0.953125)</Element>
+										</Patch>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">777c6ead-0236-4d9b-ae1c-9d06763f4b5c</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">1</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="InvFadeDistance">0</Item>
+												<Item key="Local">true</Item>
+												<Item key="ModulateColor">(1,1,1,1)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="ZmbmPpqZGT9mZuY+">(0.44999998807907104,0.60000002384185791,0.44999998807907104)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAEAAAAAA">(0,2,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AACgwA==">-5</DepthOffset>
+										<DelayTime rawdata="zczMPQ==">0.100000001</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="zczMPQ==">0.100000001</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AADAPw==">1.5</MinValue>
+													<MaxValue rawdata="AADAPw==">1.5</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="1" ordered="true">
+												<Element index="0">
+													<Time rawdata="z6VaPg==">0.213523135</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSizeByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeCurve>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="EFBlPg==">0.223938227</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+											</Nodes>
+										</SizeCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="8">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementAlphaByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<AlphaCurve>
+											<Nodes count="6" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="5Qj9PQ==">0.123552121</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="M0RpPg==">0.227799222</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="yY3cPg==">0.430769235</Time>
+													<Value rawdata="rkdhPg==">0.219999999</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="1UotPw==">0.676923096</Time>
+													<Value rawdata="zczMPQ==">0.100000001</Value>
+												</Element>
+												<Element index="5">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+											</Nodes>
+										</AlphaCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="5">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>glow022</Name>
+						<Enable>true</Enable>
+						<Elements count="9" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataSprite">
+										<Name/>
+										<Enable>true</Enable>
+										<Facing>Y</Facing>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+										<Scale rawdata="AACAPwAAgD8=">(1,1)</Scale>
+										<Pivot rawdata="AAAAAAAAAAA=">(0,0)</Pivot>
+										<Patch count="4" ordered="true">
+											<Element index="0" rawdata="AABkvwAAdD8AAGA9AADAPA==">(-0.890625,0.953125,0.0546875,0.0234375)</Element>
+											<Element index="1" rawdata="AABwPwAAdD8AAHg/AADAPA==">(0.9375,0.953125,0.96875,0.0234375)</Element>
+											<Element index="2" rawdata="AABwPwAAaL8AAHg/AAB0Pw==">(0.9375,-0.90625,0.96875,0.953125)</Element>
+											<Element index="3" rawdata="AABkvwAAaL8AAGA9AAB0Pw==">(-0.890625,-0.90625,0.0546875,0.953125)</Element>
+										</Patch>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">777c6ead-0236-4d9b-ae1c-9d06763f4b5c</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="InvFadeDistance">0</Item>
+												<Item key="Local">true</Item>
+												<Item key="ModulateColor">(1,1,1,1)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AACAPwAAgD8AAIA/">(1,1,1)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AACgQQ==">20</DepthOffset>
+										<DelayTime rawdata="zczMPQ==">0.100000001</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AAAgQA==">2.5</MinValue>
+													<MaxValue rawdata="AAAgQA==">2.5</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="zczMPg==">0.400000006</MinValue>
+													<MaxValue rawdata="zczMPg==">0.400000006</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AAAAPw==">0.5</MinValue>
+													<MaxValue rawdata="AAAAPw==">0.5</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="1" ordered="true">
+												<Element index="0">
+													<Time rawdata="Lsg4Pg==">0.180451125</Time>
+													<Value rawdata="3rh9P964fT/euH0/AACAPw==">(0.99110209941864014,0.99110209941864014,0.99110209941864014,1)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSizeByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeCurve>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="7FG4Pg==">0.360000014</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="0LpBPg==">0.189189196</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+											</Nodes>
+										</SizeCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="8">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementAlphaByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<AlphaCurve>
+											<Nodes count="6" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="EFDlPQ==">0.111969113</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="hH6APg==">0.250965238</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="yY3cPg==">0.430769235</Time>
+													<Value rawdata="rkdhPg==">0.219999999</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="1UotPw==">0.676923096</Time>
+													<Value rawdata="zczMPQ==">0.100000001</Value>
+												</Element>
+												<Element index="5">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+											</Nodes>
+										</AlphaCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="6">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>lizi02</Name>
+						<Enable>false</Enable>
+						<Elements count="13" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataSprite">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<Facing>Camera</Facing>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+										<Scale rawdata="zcxMPs3MTD4=">(0.20000000298023224,0.20000000298023224)</Scale>
+										<Pivot rawdata="AAAAAAAAAAA=">(0,0)</Pivot>
+										<Patch count="4" ordered="true">
+											<Element index="0" rawdata="ANT0PWn2Vz9ATQ8/XCagPQ==">(0.11954498291015625,0.84360367059707642,0.55977249145507812,0.078198164701461792)</Element>
+											<Element index="1" rawdata="8O5IP6D0iT14d2Q/bMHuPg==">(0.78489589691162109,0.067361116409301758,0.89244794845581055,0.46631944179534912)</Element>
+											<Element index="2" rawdata="0BMIPrxOTb96AhE/XqdmPw==">(0.1328880786895752,-0.80198264122009277,0.5664440393447876,0.90099132061004639)</Element>
+											<Element index="3" rawdata="Q2yTv1i1tz0YYpu9VQnpPg==">(-1.1517413854598999,0.089701354503631592,-0.075870692729949951,0.4551493227481842)</Element>
+										</Patch>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<MaxParticles>15</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">aa544743-62a3-44e8-a4ce-82e935a0fafb</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">10</Item>
+												<Item key="InvFadeDistance">10</Item>
+												<Item key="Local">false</Item>
+												<Item key="ModulateColor">(10,10,10,5)</Item>
+												<Item key="Soft">true</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>false</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AACAPwAAgD8AAIA/">(1,1,1)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="zczMPQ==">0.100000001</FadeDistance>
+										<DepthOffset rawdata="AACgQQ==">20</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AAAgQQ==">10</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>true</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name>__none__</Name>
+													<MinValue rawdata="AAAAPw==">0.5</MinValue>
+													<MaxValue rawdata="AAAAPw==">0.5</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitRotation">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<RotationDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name>__none__</Name>
+													<MinValue rawdata="coo6QA==">2.91470003</MinValue>
+													<MaxValue rawdata="wCUawA==">-2.40855408</MaxValue>
+												</Entity>
+											</Root>
+										</RotationDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitRotationRate">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<RotationRateDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name>__none__</Name>
+													<MinValue rawdata="AADgQA==">7</MinValue>
+													<MaxValue rawdata="AADAwA==">-6</MaxValue>
+												</Entity>
+											</Root>
+										</RotationRateDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="zczMPg==">0.400000006</MinValue>
+													<MaxValue rawdata="MzMzPw==">0.699999988</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="MzOzPg==">0.349999994</MinValue>
+													<MaxValue rawdata="mpkZPw==">0.600000024</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="8">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitVelocity">
+										<Name/>
+										<Enable>true</Enable>
+										<VelocityDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionSphere">
+													<Name/>
+													<Center rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Center>
+													<MinRadius rawdata="AACAPw==">1</MinRadius>
+													<MaxRadius rawdata="AAAAQA==">2</MaxRadius>
+												</Entity>
+											</Root>
+										</VelocityDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="9">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="4" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="iCNBPg==">0.188612103</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/0M9PPw==">(1,1,1,0.81176471710205078)</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="zqXaPg==">0.427046239</Time>
+													<Value rawdata="AACAPwAAgD8AAIA///7+Pg==">(1,1,1,0.49803921580314636)</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="jS1+Pw==">0.99288255</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="10">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSizeByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeCurve>
+											<Nodes count="5" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="CtcjPg==">0.159999996</Time>
+													<Value rawdata="CtcjPw==">0.639999986</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="LtXZPg==">0.425454557</Time>
+													<Value rawdata="4C2QPg==">0.281599998</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="u80xPw==">0.694545448</Time>
+													<Value rawdata="CtcjPw==">0.639999986</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+											</Nodes>
+										</SizeCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="11">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementJitter">
+										<Name/>
+										<Enable>true</Enable>
+										<PositionJitter>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformVector3">
+													<Name/>
+													<MinValue rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</MinValue>
+													<MaxValue rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</MaxValue>
+												</Entity>
+											</Root>
+										</PositionJitter>
+										<VelocityJitter>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformVector3">
+													<Name/>
+													<MinValue rawdata="AABAQAAAQEAAAEBA">(3,3,3)</MinValue>
+													<MaxValue rawdata="AABAwAAAQMAAAEDA">(-3,-3,-3)</MaxValue>
+												</Entity>
+											</Root>
+										</VelocityJitter>
+										<AlwaysLocal>false</AlwaysLocal>
+										<JitterPeriod rawdata="j8L1PA==">0.0299999993</JitterPeriod>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="12">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementResistance">
+										<Name/>
+										<Enable>true</Enable>
+										<ResistanceConstant rawdata="AACAPw==">1</ResistanceConstant>
+										<ResistanceLinear rawdata="AAAAAA==">0</ResistanceLinear>
+										<ResistanceQuadratic rawdata="AAAAAA==">0</ResistanceQuadratic>
+										<DelayApply rawdata="AAAAAA==">0</DelayApply>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="7">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>guangzhu01</Name>
+						<Enable>false</Enable>
+						<Elements count="8" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataMesh">
+										<Name/>
+										<Enable>true</Enable>
+										<MeshPath>4b88e3eb-2c1c-4950-9882-c92b6ed8c91d</MeshPath>
+										<CenterOffset rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</CenterOffset>
+										<Effect>Twisted</Effect>
+										<Solid>false</Solid>
+										<DoubleSided>true</DoubleSided>
+										<PostBlend>false</PostBlend>
+										<FaceCamera>false</FaceCamera>
+										<FixedRotation>true</FixedRotation>
+										<YAxisLocked>true</YAxisLocked>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Effect/Twisted</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">0dbb1202-a5e8-42fd-9a43-8604e43c97dd</Item>
+												<Item key="MaskTexture">0e131265-9627-423d-aa21-e7735cb3255d</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="TwistTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="DiffuseUVScolling">(1,-1,0,0)</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">4</Item>
+												<Item key="MaskMapEnable">false</Item>
+												<Item key="ModulateColor">(3,3,3,0.5)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="TwistStrength">(0,0)</Item>
+												<Item key="TwistUVScolling">(1,1,0,0)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="mpmZP5qZWT+amZk/">(1.2000000476837158,0.85000002384185791,1.2000000476837158)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAM3MzL4AAAAA">(0,-0.40000000596046448,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AACgQQ==">20</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="MzMzPw==">0.699999988</MinValue>
+													<MaxValue rawdata="MzMzPw==">0.699999988</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="1" ordered="true">
+												<Element index="0">
+													<Time rawdata="hH+cPg==">0.305660367</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSize3DByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<Constraint>XZ</Constraint>
+										<SizeCurveX>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="rkfhPg==">0.439999998</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="0LpBPg==">0.189189196</Time>
+													<Value rawdata="ZmZmPw==">0.899999976</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveX>
+										<SizeCurveY>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="jRPJPQ==">0.0981818214</Time>
+													<Value rawdata="9igcQQ==">9.76000023</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="9igcQQ==">9.76000023</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveY>
+										<SizeCurveZ>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="rkfhPg==">0.439999998</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="0LpBPg==">0.189189196</Time>
+													<Value rawdata="ZmZmPw==">0.899999976</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveZ>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementAlphaByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<AlphaCurve>
+											<Nodes count="5" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="CA0GPg==">0.130909085</Time>
+													<Value rawdata="KVyPPg==">0.280000001</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="3WCKPg==">0.270270258</Time>
+													<Value rawdata="KVwPPg==">0.140000001</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="k3nXPg==">0.420849413</Time>
+													<Value rawdata="CtejPQ==">0.0799999982</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+											</Nodes>
+										</AlphaCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="8">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>guangzhu02</Name>
+						<Enable>false</Enable>
+						<Elements count="8" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataMesh">
+										<Name/>
+										<Enable>true</Enable>
+										<MeshPath>4b88e3eb-2c1c-4950-9882-c92b6ed8c91d</MeshPath>
+										<CenterOffset rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</CenterOffset>
+										<Effect>Twisted</Effect>
+										<Solid>false</Solid>
+										<DoubleSided>true</DoubleSided>
+										<PostBlend>false</PostBlend>
+										<FaceCamera>false</FaceCamera>
+										<FixedRotation>true</FixedRotation>
+										<YAxisLocked>true</YAxisLocked>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Effect/Twisted</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">0dbb1202-a5e8-42fd-9a43-8604e43c97dd</Item>
+												<Item key="MaskTexture">0e131265-9627-423d-aa21-e7735cb3255d</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="TwistTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="DiffuseUVScolling">(1,-1,0,0)</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="MaskMapEnable">false</Item>
+												<Item key="ModulateColor">(1,1,1,1.5)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="TwistStrength">(0,0)</Item>
+												<Item key="TwistUVScolling">(1,1,0,0)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="mpmZP5qZGT+amZk/">(1.2000000476837158,0.60000002384185791,1.2000000476837158)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAM3MTL4AAAAA">(0,-0.20000000298023224,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AACgQQ==">20</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="zczMPg==">0.400000006</MinValue>
+													<MaxValue rawdata="zczMPg==">0.400000006</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="1" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSize3DByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<Constraint>XZ</Constraint>
+										<SizeCurveX>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="rkfhPg==">0.439999998</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="bDGaPg==">0.301158309</Time>
+													<Value rawdata="9ijcPw==">1.72000003</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAQA==">2</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveX>
+										<SizeCurveY>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="yFMCPg==">0.127272725</Time>
+													<Value rawdata="jpeuQA==">5.45600033</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="5KXbQA==">6.86400032</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveY>
+										<SizeCurveZ>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="rkfhPg==">0.439999998</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="bDGaPg==">0.301158309</Time>
+													<Value rawdata="9ijcPw==">1.72000003</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAQA==">2</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveZ>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementAlphaByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<AlphaCurve>
+											<Nodes count="5" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="Zd41Pg==">0.17760618</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="xROkPg==">0.32046333</Time>
+													<Value rawdata="UrgePw==">0.620000005</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="n3UDPw==">0.513513505</Time>
+													<Value rawdata="mpmZPg==">0.300000012</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+											</Nodes>
+										</AlphaCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="9">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>combo01</Name>
+						<Enable>true</Enable>
+						<Elements count="4" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataCombo">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeMode>Clamp</LifeMode>
+										<SubEmitters count="6" ordered="true">
+											<Element index="0">glow01</Element>
+											<Element index="1">guangzhu01</Element>
+											<Element index="2">guangzhu02</Element>
+											<Element index="3">kuosan01</Element>
+											<Element index="4">wenli01</Element>
+											<Element index="5">kuosan03</Element>
+										</SubEmitters>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>64</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">ffffffff-0100-0000-0100-000047000000</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="InvFadeDistance">0</Item>
+												<Item key="Local">true</Item>
+												<Item key="ModulateColor">(1,1,1,1)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AACAPwAAgD8AAIA/">(1,1,1)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AAAAAA==">0</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="zcxMPw==">0.800000012</MinValue>
+													<MaxValue rawdata="zcxMPw==">0.800000012</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="10">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>kuosan01</Name>
+						<Enable>false</Enable>
+						<Elements count="8" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataMesh">
+										<Name/>
+										<Enable>true</Enable>
+										<MeshPath>5e8f9b13-d37e-484b-9d1f-de5f1db537a0</MeshPath>
+										<CenterOffset rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</CenterOffset>
+										<Effect>Twisted</Effect>
+										<Solid>false</Solid>
+										<DoubleSided>false</DoubleSided>
+										<PostBlend>false</PostBlend>
+										<FaceCamera>false</FaceCamera>
+										<FixedRotation>true</FixedRotation>
+										<YAxisLocked>true</YAxisLocked>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Effect/Twisted</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">8313a440-2118-4d00-8f37-232602f00d6d</Item>
+												<Item key="MaskTexture">46b69252-3788-47bf-a25d-1007762c7e55</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="TwistTexture">ff8c2225-87ef-4c76-a629-0baa928148e5</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="DiffuseUVScolling">(2,0.5,0,1.2)</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2.8</Item>
+												<Item key="MaskMapEnable">false</Item>
+												<Item key="ModulateColor">(2,2,2,1)</Item>
+												<Item key="Soft">true</Item>
+												<Item key="TwistStrength">(0,0.5)</Item>
+												<Item key="TwistUVScolling">(1,0.2,0,0.1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>32</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="UrgeP1K4Hj9SuB4/">(0.62000000476837158,0.62000000476837158,0.62000000476837158)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AACAPg==">0.25</FadeDistance>
+										<DepthOffset rawdata="AACgQA==">5</DepthOffset>
+										<DelayTime rawdata="zczMPQ==">0.100000001</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="mpkZPg==">0.150000006</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAQA==">4</EmissionRate>
+										<EmissionDuration rawdata="AACAPw==">1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="ZmbmPw==">1.79999995</MinValue>
+													<MaxValue rawdata="ZmbmPw==">1.79999995</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="ZmZmPw==">0.899999976</MinValue>
+													<MaxValue rawdata="ZmZmPw==">0.899999976</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="5" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="MIPwPQ==">0.11743772</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="5wT/Pg==">0.498084277</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/jIsLPw==">(1,1,1,0.54509806632995605)</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="bchEPw==">0.768683255</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/0dDQPQ==">(1,1,1,0.10196078568696976)</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSizeByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeCurve>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="LFOzPQ==">0.0875609815</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="zczMPg==">0.400000006</Time>
+													<Value rawdata="J11rPw==">0.919390142</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="4QuTPw==">1.14880002</Value>
+												</Element>
+											</Nodes>
+										</SizeCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="11">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>glow02</Name>
+						<Enable>false</Enable>
+						<Elements count="7" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataSprite">
+										<Name/>
+										<Enable>true</Enable>
+										<Facing>Y</Facing>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+										<Scale rawdata="AACAQAAAgEA=">(4,4)</Scale>
+										<Pivot rawdata="AAAAAAAAAAA=">(0,0)</Pivot>
+										<Patch count="4" ordered="true">
+											<Element index="0" rawdata="AABwvwAAcD8AAAA9AAAAPQ==">(-0.9375,0.9375,0.03125,0.03125)</Element>
+											<Element index="1" rawdata="AAB0PwAAcD8AAHo/AAAAPQ==">(0.953125,0.9375,0.9765625,0.03125)</Element>
+											<Element index="2" rawdata="AAB0PwAAdL8AAHo/AAB6Pw==">(0.953125,-0.953125,0.9765625,0.9765625)</Element>
+											<Element index="3" rawdata="AABwvwAAdL8AAAA9AAB6Pw==">(-0.9375,-0.953125,0.03125,0.9765625)</Element>
+										</Patch>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">4369bae3-fcc4-4cfd-a22e-a9bba2ad10af</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="InvFadeDistance">4</Item>
+												<Item key="Local">true</Item>
+												<Item key="ModulateColor">(5,5,5,0.05)</Item>
+												<Item key="Soft">true</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AACAPwAAgD8AAIA/">(1,1,1)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AACAPg==">0.25</FadeDistance>
+										<DepthOffset rawdata="AAAAAA==">0</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="CtejPA==">0.0199999996</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="zcxMPw==">0.800000012</MinValue>
+													<MaxValue rawdata="zcxMPw==">0.800000012</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="zcxMPg==">0.200000003</MinValue>
+													<MaxValue rawdata="zcxMPg==">0.200000003</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="4" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="jr28Pg==">0.368633687</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="kB8jPw==">0.637200356</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/6+rqPg==">(1,1,1,0.45882353186607361)</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSizeByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeCurve>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="OQENPw==">0.550799906</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="eyxxPg==">0.235521242</Time>
+													<Value rawdata="mpmZPw==">1.20000005</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="pHCdPw==">1.23000002</Value>
+												</Element>
+											</Nodes>
+										</SizeCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="12">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>wenli01</Name>
+						<Enable>false</Enable>
+						<Elements count="10" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataMesh">
+										<Name/>
+										<Enable>true</Enable>
+										<MeshPath>fae4f0af-bec2-49f1-9b4e-76d1e1b43c9d</MeshPath>
+										<CenterOffset rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</CenterOffset>
+										<Effect>Twisted</Effect>
+										<Solid>false</Solid>
+										<DoubleSided>true</DoubleSided>
+										<PostBlend>false</PostBlend>
+										<FaceCamera>false</FaceCamera>
+										<FixedRotation>true</FixedRotation>
+										<YAxisLocked>true</YAxisLocked>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Effect/Twisted</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">7d43ba3c-37d9-4439-91af-83a2af48cb0d</Item>
+												<Item key="MaskTexture">f730850b-417f-43bd-8f21-a2bd25f4e6cc</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="TwistTexture">854485e8-9ff2-42bc-adc6-8d9dc6c498bc</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0.5</Item>
+												<Item key="DiffuseUVScolling">(1,0.5,0,1)</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="MaskMapEnable">false</Item>
+												<Item key="ModulateColor">(1.5,1.5,1.5,3)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="TwistStrength">(0.1,0.1)</Item>
+												<Item key="TwistUVScolling">(1,1,0,1.5)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AAAgQJqZmT8AACBA">(2.5,1.2000000476837158,2.5)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AAAAAA==">0</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="mpkZPg==">0.150000006</MinValue>
+													<MaxValue rawdata="mpkZPg==">0.150000006</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="mpkZPw==">0.600000024</MinValue>
+													<MaxValue rawdata="mpkZPw==">0.600000024</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSpin">
+										<Name/>
+										<Enable>true</Enable>
+										<SpinDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformVector3">
+													<Name/>
+													<MinValue rawdata="AAAAANsPSUAAAAAA">(0,3.1415927410125732,0)</MinValue>
+													<MaxValue rawdata="AAAAANsPScAAAAAA">(0,-3.1415927410125732,0)</MaxValue>
+												</Entity>
+											</Root>
+										</SpinDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="4" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="xhZ/Pg==">0.249110311</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="6CkiPw==">0.633451939</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/h4aGPg==">(1,1,1,0.26274511218070984)</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="8">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSize3DByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<Constraint>None</Constraint>
+										<SizeCurveX>
+											<Nodes count="2" ordered="true">
+												<Element index="0">
+													<Time rawdata="F4OKPQ==">0.0676328465</Time>
+													<Value rawdata="XI9CPw==">0.75999999</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="XI9CPw==">0.75999999</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveX>
+										<SizeCurveY>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="zOc9Pg==">0.185454547</Time>
+													<Value rawdata="y+YqQA==">2.67033648</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="1d5gQA==">3.51360059</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveY>
+										<SizeCurveZ>
+											<Nodes count="2" ordered="true">
+												<Element index="0">
+													<Time rawdata="F4OKPQ==">0.0676328465</Time>
+													<Value rawdata="rUdhPw==">0.879999936</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="rUdhPw==">0.879999936</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveZ>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="9">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementAlphaByLife">
+										<Name/>
+										<Enable>false</Enable>
+										<AlphaCurve>
+											<Nodes count="6" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="AVWOPQ==">0.0694980696</Time>
+													<Value rawdata="rkeBPw==">1.00999999</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="rMY9Pg==">0.185328186</Time>
+													<Value rawdata="rkeBPw==">1.00999999</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="U+SzPg==">0.351351351</Time>
+													<Value rawdata="DeDtPg==">0.464599997</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="SucyPw==">0.698841691</Time>
+													<Value rawdata="KcsQPg==">0.141399994</Value>
+												</Element>
+												<Element index="5">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+											</Nodes>
+										</AlphaCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="13">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>kuosan03</Name>
+						<Enable>false</Enable>
+						<Elements count="9" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataMesh">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<MeshPath>d6223bfb-fc8e-47e8-958f-607dceff4218</MeshPath>
+										<CenterOffset rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</CenterOffset>
+										<Effect>Twisted</Effect>
+										<Solid>false</Solid>
+										<DoubleSided>false</DoubleSided>
+										<PostBlend>false</PostBlend>
+										<FaceCamera>false</FaceCamera>
+										<FixedRotation>true</FixedRotation>
+										<YAxisLocked>true</YAxisLocked>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<MaxParticles>3</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Effect/Twisted</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">c264d679-426c-49c2-ba5f-d725b49eb913</Item>
+												<Item key="MaskTexture">0c5c07b1-b77d-4a4d-adf0-f58cac6a8f10</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="TwistTexture">7d43ba3c-37d9-4439-91af-83a2af48cb0d</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="DiffuseUVScolling">(1,1,0.2,-0.5)</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="MaskMapEnable">false</Item>
+												<Item key="ModulateColor">(5,5,5,20)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="TwistStrength">(0.2,0.7)</Item>
+												<Item key="TwistUVScolling">(1,1,0,0)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>32</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AAAAPwAAAD8AAAA/">(0.5,0.5,0.5)</Scale>
+										<Rotation rawdata="2w/JPwAAAAAAAAAA">(1.5707963705062866,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AAAAAA==">0</DepthOffset>
+										<DelayTime rawdata="zczMPQ==">0.100000001</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="zczMPQ==">0.100000001</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AAAgQQ==">10</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>3</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name>__none__</Name>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name>__none__</Name>
+													<MinValue rawdata="zcxMPw==">0.800000012</MinValue>
+													<MaxValue rawdata="zcxMPw==">0.800000012</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSpin">
+										<Name/>
+										<Enable>true</Enable>
+										<SpinDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformVector3">
+													<Name/>
+													<MinValue rawdata="AAAAAAAAAADcD0lA">(0,0,3.1415929794311523)</MinValue>
+													<MaxValue rawdata="AAAAAAAAAADcD0nA">(0,0,-3.1415929794311523)</MaxValue>
+												</Entity>
+											</Root>
+										</SpinDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="ZmbmPw==">1.79999995</MinValue>
+													<MaxValue rawdata="ZmbmPw==">1.79999995</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="5" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="OQzbPQ==">0.106956907</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/oqEhPw==">(1,1,1,0.63137257099151611)</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="2AvrPg==">0.459074736</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/kZAQPg==">(1,1,1,0.14117647707462311)</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="rnFBPw==">0.755640864</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="8">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSizeByLife">
+										<Name>__none__</Name>
+										<Enable>true</Enable>
+										<SizeCurve>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="0LpBPg==">0.189189196</Time>
+													<Value rawdata="KVyPPg==">0.280000001</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="KVyPPg==">0.280000001</Value>
+												</Element>
+											</Nodes>
+										</SizeCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="14">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>Trail02</Name>
+						<Enable>true</Enable>
+						<Elements count="9" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataMesh">
+										<Name/>
+										<Enable>true</Enable>
+										<MeshPath>2fd932cb-0daa-41ab-bd25-17e5a624529e</MeshPath>
+										<CenterOffset rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</CenterOffset>
+										<Effect>Panner</Effect>
+										<Solid>false</Solid>
+										<DoubleSided>false</DoubleSided>
+										<PostBlend>false</PostBlend>
+										<FaceCamera>true</FaceCamera>
+										<FixedRotation>true</FixedRotation>
+										<YAxisLocked>true</YAxisLocked>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Effect/Panner</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">77f34322-1a5e-4222-b233-27f970b124f4</Item>
+												<Item key="MaskTexture">cf25f833-497f-4982-984b-611841d18130</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="TwistTexture">5836fefe-6390-42a0-aac6-8ab458ff5ec7</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="DiffuseUVOffset">(0,0)</Item>
+												<Item key="DiffuseUVScolling">(1,1,-2,0)</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="InvFadeDistance">4</Item>
+												<Item key="MaskUVTransform">(1,1,0,0)</Item>
+												<Item key="ModulateColor">(10,10,10,0.5)</Item>
+												<Item key="Soft">true</Item>
+												<Item key="TwistEnable">false</Item>
+												<Item key="TwistStrength">(0.2,0)</Item>
+												<Item key="TwistUVScolling">(1,1,0.2,0.1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>32</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AAAAPwAAgD4AAAA/">(0.5,0.25,0.5)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AACAPg==">0.25</FadeDistance>
+										<DepthOffset rawdata="AAAAAA==">0</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="zczMPQ==">0.100000001</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="MzOzPg==">0.349999994</MinValue>
+													<MaxValue rawdata="MzOzPg==">0.349999994</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AADAPw==">1.5</MinValue>
+													<MaxValue rawdata="AADAPw==">1.5</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSize3DByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<Constraint>None</Constraint>
+										<SizeCurveX>
+											<Nodes count="2" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="zczMPw==">1.60000002</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="zczMPw==">1.60000002</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveX>
+										<SizeCurveY>
+											<Nodes count="2" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="pHD9Pw==">1.98000002</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="pHD9Pw==">1.98000002</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveY>
+										<SizeCurveZ>
+											<Nodes count="2" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+											</Nodes>
+										</SizeCurveZ>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="2" ordered="true">
+												<Element index="0">
+													<Time rawdata="3sMRPQ==">0.0355871841</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="IEdsPiBHbD4gR2w+AACAPw==">(0.23074007034301758,0.23074007034301758,0.23074007034301758,1)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementAlphaByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<AlphaCurve>
+											<Nodes count="5" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="ScaJPg==">0.269090921</Time>
+													<Value rawdata="rkdhPw==">0.879999995</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="867FPg==">0.386100382</Time>
+													<Value rawdata="rkdhPg==">0.219999999</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="DqZIPw==">0.783783793</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+											</Nodes>
+										</AlphaCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="8">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementControlByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ControlCurve>
+											<Nodes count="2" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="IVkJvw==">-0.536516249</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+											</Nodes>
+										</ControlCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="15">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>combo02</Name>
+						<Enable>true</Enable>
+						<Elements count="4" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataCombo">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeMode>Clamp</LifeMode>
+										<SubEmitters count="2" ordered="true">
+											<Element index="0">lizi01</Element>
+											<Element index="1">lizi02</Element>
+										</SubEmitters>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>64</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">ffffffff-0100-0000-0100-000047000000</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="InvFadeDistance">0</Item>
+												<Item key="Local">true</Item>
+												<Item key="ModulateColor">(1,1,1,1)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AACAPwAAgD8AAIA/">(1,1,1)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AAAAAA==">0</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementTracker">
+										<Name/>
+										<Enable>true</Enable>
+										<Delay rawdata="AAAAAA==">0</Delay>
+										<Period rawdata="mpmZPg==">0.300000012</Period>
+										<Loop>false</Loop>
+										<AutoReverse>false</AutoReverse>
+										<AutoStop>true</AutoStop>
+										<AutoClear>false</AutoClear>
+										<LocalMotion>false</LocalMotion>
+										<Orientation>None</Orientation>
+										<StartPoint rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</StartPoint>
+										<Direction rawdata="AAAAAAAAgD8AAAAA">(0,1,0)</Direction>
+										<Distance rawdata="AACgQA==">5</Distance>
+										<StartRadius rawdata="AABAQA==">3</StartRadius>
+										<EndRadius rawdata="AACAPw==">1</EndRadius>
+										<StartOrbitPhase rawdata="AABwQg==">60</StartOrbitPhase>
+										<Turns rawdata="AADAPw==">1.5</Turns>
+										<StartSpinPhase rawdata="AAAAAA==">0</StartSpinPhase>
+										<SpinSpeed rawdata="AAAAAA==">0</SpinSpeed>
+										<AccelerationControl rawdata="AACAPw==">1</AccelerationControl>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="16">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>combo03</Name>
+						<Enable>true</Enable>
+						<Elements count="4" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataCombo">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeMode>Clamp</LifeMode>
+										<SubEmitters count="2" ordered="true">
+											<Element index="0">lizi01</Element>
+											<Element index="1">lizi02</Element>
+										</SubEmitters>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>64</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">ffffffff-0100-0000-0100-000047000000</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="InvFadeDistance">0</Item>
+												<Item key="Local">true</Item>
+												<Item key="ModulateColor">(1,1,1,1)</Item>
+												<Item key="Soft">false</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AACAPwAAgD8AAIA/">(1,1,1)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AAAAAA==">0</FadeDistance>
+										<DepthOffset rawdata="AAAAAA==">0</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementTracker">
+										<Name/>
+										<Enable>true</Enable>
+										<Delay rawdata="AAAAAA==">0</Delay>
+										<Period rawdata="mpmZPg==">0.300000012</Period>
+										<Loop>false</Loop>
+										<AutoReverse>false</AutoReverse>
+										<AutoStop>true</AutoStop>
+										<AutoClear>false</AutoClear>
+										<LocalMotion>false</LocalMotion>
+										<Orientation>None</Orientation>
+										<StartPoint rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</StartPoint>
+										<Direction rawdata="AAAAAAAAgD8AAAAA">(0,1,0)</Direction>
+										<Distance rawdata="AADAQA==">6</Distance>
+										<StartRadius rawdata="AABAQA==">3</StartRadius>
+										<EndRadius rawdata="AACAPw==">1</EndRadius>
+										<StartOrbitPhase rawdata="AAC0Qg==">90</StartOrbitPhase>
+										<Turns rawdata="AADAPw==">1.5</Turns>
+										<StartSpinPhase rawdata="AAAAAA==">0</StartSpinPhase>
+										<SpinSpeed rawdata="AAAAAA==">0</SpinSpeed>
+										<AccelerationControl rawdata="AACAPw==">1</AccelerationControl>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="17">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>Grow02</Name>
+						<Enable>true</Enable>
+						<Elements count="8" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataSprite">
+										<Name/>
+										<Enable>true</Enable>
+										<Facing>Camera</Facing>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+										<Scale rawdata="AACAPwAAgD8=">(1,1)</Scale>
+										<Pivot rawdata="AAAAAAAAAAA=">(0,0)</Pivot>
+										<Patch count="6" ordered="true">
+											<Element index="0" rawdata="+Bi8PmpXdj8+Bi8/XomaPA==">(0.36737799644470215,0.96227133274078369,0.68368899822235107,0.018864329904317856)</Element>
+											<Element index="1" rawdata="oHWEP2wwJT7QOoI/5bPWPg==">(1.0348396301269531,0.16131752729415894,1.0174198150634766,0.41934123635292053)</Element>
+											<Element index="2" rawdata="AEAiPwBgV78AIFE/ALBrPw==">(0.6337890625,-0.84130859375,0.81689453125,0.920654296875)</Element>
+											<Element index="3" rawdata="AMDivgDwcr8AoI4+AHh5Pw==">(-0.44287109375,-0.948974609375,0.278564453125,0.9744873046875)</Element>
+											<Element index="4" rawdata="FK59v4DrAb7gepQ7cD0QPw==">(-0.99093747138977051,-0.12687492370605469,0.0045312494039535522,0.56343746185302734)</Element>
+											<Element index="5" rawdata="VVUlv3IcSz9WVTU+OI7TPQ==">(-0.64583331346511841,0.79340279102325439,0.1770833432674408,0.1032986044883728)</Element>
+										</Patch>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Particle</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">a2f2c905-f694-4598-a9c2-c6043c3abad8</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">0</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">4</Item>
+												<Item key="InvFadeDistance">4</Item>
+												<Item key="Local">true</Item>
+												<Item key="ModulateColor">(1,1,1,5)</Item>
+												<Item key="Soft">true</Item>
+												<Item key="UVScale">(1,1)</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AACAPwAAgD8AAIA/">(1,1,1)</Scale>
+										<Rotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Rotation>
+										<Translation rawdata="AAAAAAAAgD8AAAAA">(0,1,0)</Translation>
+										<FadeDistance rawdata="AACAPg==">0.25</FadeDistance>
+										<DepthOffset rawdata="AACgQQ==">20</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACAPw==">1</EmissionRate>
+										<EmissionDuration rawdata="AACAvw==">-1</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPg==">0.25</MinValue>
+													<MaxValue rawdata="AACAPg==">0.25</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="MzMzPw==">0.699999988</MinValue>
+													<MaxValue rawdata="MzMzPw==">0.699999988</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementEmissionByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionCurve>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPw==">1</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="7DbHPg==">0.389090896</Time>
+													<Value rawdata="j8J1Pw==">0.959999979</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="Njw9Pw==">0.739199996</Value>
+												</Element>
+											</Nodes>
+										</EmissionCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSizeByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeCurve>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="heuxQA==">5.55999994</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="KVyPPg==">0.280000001</Time>
+													<Value rawdata="uK+jQA==">5.11520004</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="OUVHPw==">0.778400004</Value>
+												</Element>
+											</Nodes>
+										</SizeCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="2" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAPw==">(1,1,1,0.5)</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/mZgYPg==">(1,1,1,0.14901961386203766)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+			<Element index="18">
+				<Root>
+					<Sub/>
+					<Entity type="ParticleEmitter">
+						<Name>glow_zhu</Name>
+						<Enable>true</Enable>
+						<Elements count="8" ordered="true">
+							<Element index="0">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementTypeDataMesh">
+										<Name/>
+										<Enable>true</Enable>
+										<MeshPath>bbec1eb8-554a-4d40-ba70-5a54e10ba245</MeshPath>
+										<CenterOffset rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</CenterOffset>
+										<Effect>Basic</Effect>
+										<Solid>false</Solid>
+										<DoubleSided>true</DoubleSided>
+										<PostBlend>false</PostBlend>
+										<FaceCamera>false</FaceCamera>
+										<FixedRotation>true</FixedRotation>
+										<YAxisLocked>true</YAxisLocked>
+										<RepeatU>0</RepeatU>
+										<RepeatV>0</RepeatV>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="1">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementProperty">
+										<Name/>
+										<Enable>true</Enable>
+										<MaxParticles>1</MaxParticles>
+										<LODGroup>Low</LODGroup>
+										<SortMode>ByDistance</SortMode>
+										<LowRate rawdata="zcxMPg==">0.200000003</LowRate>
+										<MediumRate rawdata="AAAAPw==">0.5</MediumRate>
+										<HightRate rawdata="AACAPw==">1</HightRate>
+										<LogicalScale>1</LogicalScale>
+										<MaterialInfo>
+											<BaseMaterial>00000000-0000-0000-0000-000000000000</BaseMaterial>
+											<Shader>Effect/Basic</Shader>
+											<Textures>
+												<Item key="DepthBuffer">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="DiffuseTexture">74f40d71-c9ef-4de8-925e-f47eb4c04b26</Item>
+												<Item key="SSProfilesTextureGlobel">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="ScreenTexture">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVDayTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tIRVNightTextureA">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tScatteringAndTransmittanceVolume">00000000-0000-0000-0000-000000000000</Item>
+												<Item key="tShadowMapArray">00000000-0000-0000-0000-000000000000</Item>
+											</Textures>
+											<Parameters>
+												<Item key="AdditionColor">(1,1,1,1)</Item>
+												<Item key="BloomScale">0.5</Item>
+												<Item key="DepthBias">1</Item>
+												<Item key="Distortion">false</Item>
+												<Item key="FogStrength">0</Item>
+												<Item key="HDRScale">2</Item>
+												<Item key="InvFadeDistance">4</Item>
+												<Item key="ModulateColor">(3,3,3,0.5)</Item>
+												<Item key="Soft">true</Item>
+											</Parameters>
+											<InactiveParameters/>
+											<Flags>1048608</Flags>
+										</MaterialInfo>
+										<Distortion>false</Distortion>
+										<Local>true</Local>
+										<DepthTest>true</DepthTest>
+										<DepthWrite>false</DepthWrite>
+										<Scale rawdata="AAAAPwAAAD8AAAA/">(0.5,0.5,0.5)</Scale>
+										<Rotation rawdata="AAAAgJIKhr8AAAAA">(-0,-1.0471975803375244,0)</Rotation>
+										<Translation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Translation>
+										<FadeDistance rawdata="AACAPg==">0.25</FadeDistance>
+										<DepthOffset rawdata="AAAwQQ==">11</DepthOffset>
+										<DelayTime rawdata="AAAAAA==">0</DelayTime>
+										<DelayTimeRandom rawdata="AAAAAA==">0</DelayTimeRandom>
+										<WarmUpTime rawdata="AAAAAA==">0</WarmUpTime>
+										<RandomSeed>0</RandomSeed>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="2">
+								<Root>
+									<Sub/>
+									<Entity type="TwParticleElementSource">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionRate rawdata="AACgQA==">5</EmissionRate>
+										<EmissionDuration rawdata="AAAQQA==">2.25</EmissionDuration>
+										<EmissionDelay rawdata="AAAAAA==">0</EmissionDelay>
+										<EmissionBurst>1</EmissionBurst>
+										<TimeTriggered>false</TimeTriggered>
+										<ActiveDuration rawdata="AACAPw==">1</ActiveDuration>
+										<SleepDuration rawdata="AAAAAA==">0</SleepDuration>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="3">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitEmission">
+										<Name/>
+										<Enable>true</Enable>
+										<EmissionDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AACAPw==">1</MinValue>
+													<MaxValue rawdata="AACAPw==">1</MaxValue>
+												</Entity>
+											</Root>
+										</EmissionDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="4">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitLife">
+										<Name/>
+										<Enable>true</Enable>
+										<LifeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AAAAPw==">0.5</MinValue>
+													<MaxValue rawdata="AAAAPw==">0.5</MaxValue>
+												</Entity>
+											</Root>
+										</LifeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="5">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementInitSize">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeDistribution>
+											<Root>
+												<Sub/>
+												<Entity type="DistributionUniformFloat">
+													<Name/>
+													<MinValue rawdata="AAAAQA==">2</MinValue>
+													<MaxValue rawdata="AAAAQA==">2</MaxValue>
+												</Entity>
+											</Root>
+										</SizeDistribution>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="6">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementColorByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<ColorCurve>
+											<Nodes count="5" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="3rh9P7E3Nz8AAIA/AAAAAA==">(0.99110209941864014,0.71569353342056274,1,0)</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="HMtZPQ==">0.0531722158</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="6Vh/Pg==">0.249362603</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AACAPw==">(1,1,1,1)</Value>
+												</Element>
+												<Element index="3">
+													<Time rawdata="gQdHPw==">0.777458251</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/mZiYPQ==">(1,1,1,0.074509806931018829)</Value>
+												</Element>
+												<Element index="4">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="AACAPwAAgD8AAIA/AAAAAA==">(1,1,1,0)</Value>
+												</Element>
+											</Nodes>
+										</ColorCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>false</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+							<Element index="7">
+								<Root>
+									<Sub/>
+									<Entity type="ParticleElementSizeByLife">
+										<Name/>
+										<Enable>true</Enable>
+										<SizeCurve>
+											<Nodes count="3" ordered="true">
+												<Element index="0">
+													<Time rawdata="AAAAAA==">0</Time>
+													<Value rawdata="AAAAAA==">0</Value>
+												</Element>
+												<Element index="1">
+													<Time rawdata="jC46Pg==">0.181818187</Time>
+													<Value rawdata="rUzIQA==">6.25935984</Value>
+												</Element>
+												<Element index="2">
+													<Time rawdata="AACAPw==">1</Time>
+													<Value rawdata="qMYDQQ==">8.23600006</Value>
+												</Element>
+											</Nodes>
+										</SizeCurve>
+										<CurveGuid>00000000-0000-0000-0000-000000000000</CurveGuid>
+										<CoupledMode>true</CoupledMode>
+									</Entity>
+								</Root>
+							</Element>
+						</Elements>
+					</Entity>
+				</Root>
+			</Element>
+		</Emitters>
+		<Property>
+			<Events count="0" ordered="true"/>
+			<Switches count="0" ordered="true"/>
+			<Bias rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</Bias>
+			<FollowEntity>false</FollowEntity>
+			<StopEnd>true</StopEnd>
+			<ForcePrinciple>false</ForcePrinciple>
+			<InheritVisibility>false</InheritVisibility>
+			<StopImmediately>false</StopImmediately>
+			<PreviewRotation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</PreviewRotation>
+			<PreviewTranslation rawdata="AAAAAAAAAAAAAAAA">(0,0,0)</PreviewTranslation>
+			<PreviewLODGroup>High</PreviewLODGroup>
+			<PreviewCameraAttaching>None</PreviewCameraAttaching>
+			<PreviewLight>true</PreviewLight>
+			<EventParam/>
+			<DelayTime rawdata="AAAAAA==">0</DelayTime>
+			<FadeOutTime rawdata="AAAAAA==">0</FadeOutTime>
+			<FadeOutType>Linear</FadeOutType>
+		</Property>
+	</Entity>
+</Root>

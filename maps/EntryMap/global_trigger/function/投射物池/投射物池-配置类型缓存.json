@@ -1,0 +1,149 @@
+{
+    "action": [
+        {
+            "action_type": "EVALUATE_LUA_CODE", 
+            "args_list": [
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "Bind['投射物分配-配置类型缓存'](args[1], args[2], args[3], args[4])"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 767840268000002, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100062, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PROJECTILE", 
+                                "投射物类型", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "池大小", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "分帧调整步长", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "分步调整数量", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 6
+                }, 
+                null
+            ], 
+            "op_arg_enable": [
+                true, 
+                true, 
+                true, 
+                true, 
+                false
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "配置{投射物类型}投射物池，大小: {池大小}，调整步长(帧): {分帧调整步长}，每步调整数量: {分步调整数量}", 
+    "func_id": "6b1fc68c612411ef8022eb6d89108f6d", 
+    "func_name": "投射物池-配置类型缓存", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "投射物类型", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "池大小", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "分帧调整步长", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "分步调整数量", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "IYQQnWEkEe+mVettiRCPbV", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 767840268, 
+    "trigger_name": "投射物池-配置类型缓存", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "分帧调整步长": 0, 
+                "分步调整数量": 0, 
+                "池大小": 0
+            }, 
+            "PROJECTILE": {
+                "投射物类型": 0
+            }
+        }, 
+        {
+            "分帧调整步长": 0, 
+            "分步调整数量": 0, 
+            "投射物类型": 0, 
+            "池大小": 0
+        }, 
+        [
+            "投射物类型", 
+            "池大小", 
+            "分帧调整步长", 
+            "分步调整数量"
+        ]
+    ]
+}

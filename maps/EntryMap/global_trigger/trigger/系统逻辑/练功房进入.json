@@ -1,0 +1,196 @@
+{
+    "action": [
+        {
+            "action_type": "ADD_STATE", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [], 
+                    "sub_type": "GET_UNIT_FROM_EVENT"
+                }, 
+                {
+                    "arg_type": 100075, 
+                    "args_list": [
+                        65536
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1416839172000037, 
+            "enable": true
+        }, 
+        {
+            "action_type": "ADD_STATE", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [], 
+                    "sub_type": "GET_UNIT_FROM_EVENT"
+                }, 
+                {
+                    "arg_type": 100075, 
+                    "args_list": [
+                        32768
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1350938639000061, 
+            "enable": true
+        }, 
+        {
+            "action_type": "REMOVE_BUFF_TYPE", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [], 
+                    "sub_type": "GET_UNIT_FROM_EVENT"
+                }, 
+                {
+                    "arg_type": 100046, 
+                    "args_list": [
+                        1000101
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1416839172000023, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100116, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "GET_UNIT_FROM_EVENT"
+                        }
+                    ], 
+                    "sub_type": "GET_UNIT_KEY_OF_UNIT"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100116, 
+                    "args_list": [
+                        10001
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "UNIT_CLASS_COMPARE", 
+            "element_id": 1350938639000058, 
+            "enable": true
+        }
+    ], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100044, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100009, 
+                    "args_list": [
+                        10257
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1350938639000002, 
+            "enable": true, 
+            "event_type": "UNIT_ANY_REGION_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100044, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100009, 
+                    "args_list": [
+                        10261
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1350938639000009, 
+            "enable": true, 
+            "event_type": "UNIT_ANY_REGION_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100044, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100009, 
+                    "args_list": [
+                        10262
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1350938639000016, 
+            "enable": true, 
+            "event_type": "UNIT_ANY_REGION_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100044, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100009, 
+                    "args_list": [
+                        10263
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1350938639000023, 
+            "enable": true, 
+            "event_type": "UNIT_ANY_REGION_EVENT"
+        }
+    ], 
+    "group_id": 0, 
+    "p_trigger_id": null, 
+    "trigger_id": 1350938639, 
+    "trigger_name": "练功房进入", 
+    "valid": true, 
+    "var_data": [
+        {}, 
+        {}, 
+        []
+    ]
+}

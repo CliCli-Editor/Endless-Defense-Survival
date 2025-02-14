@@ -1,0 +1,9 @@
+local SkillConst = {}
+
+SkillConst.SKILL_TYPE_TEST1_ID = 134281928
+SkillConst.SKILL_TYPE_TEST2_ID = 134263851
+SkillConst.SKILL_TYPE_BUILD_ID = 134263489
+
+SkillConst.SKILL_BASE_ATK = 134223375
+
+return SkillConst

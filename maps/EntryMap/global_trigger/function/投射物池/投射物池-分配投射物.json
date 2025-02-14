@@ -1,0 +1,248 @@
+{
+    "action": [
+        [
+            1327052330, 
+            "传递lua只支持了5个参数，要加行为的话在这里再加", 
+            2116145165, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PROJECTILE_ENTITY", 
+                                "projectile", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100077, 
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "Bind['投射物分配-分配投射物'](args[1], args[2], args[3], args[4], args[5])"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [
+                        {
+                            "arg_type": 100062, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PROJECTILE", 
+                                        "投射物类型", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "POINT", 
+                                        "位置", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 19
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                [
+                                    "UNIT_ENTITY", 
+                                    "所有者", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 11
+                        }, 
+                        {
+                            "arg_type": 100225, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ANGLE", 
+                                        "朝向", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "高度", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        true
+                    ], 
+                    "sub_type": "Eval_Lua_PROJECTILE_ENTITY"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2116145165000029, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100077, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PROJECTILE_ENTITY", 
+                                "projectile", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2116145165000041, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "从投射物池中分配投射物，投射物类型: {投射物类型}，位置: {位置}", 
+    "func_id": "e66a1c5c612711ef81f8eb6d89108f6d", 
+    "func_name": "投射物池-分配投射物", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "投射物类型", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "位置", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "所有者", 
+                false
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "朝向", 
+                false
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "高度", 
+                false
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "投射物", 
+                "PROJECTILE_ENTITY"
+            ]
+        }
+    ], 
+    "group_id": "IYQQnWEkEe+mVettiRCPbV", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 2116145165, 
+    "trigger_name": "投射物池-分配投射物", 
+    "valid": true, 
+    "var_data": [
+        {
+            "ANGLE": {
+                "朝向": 0.0
+            }, 
+            "FLOAT": {
+                "高度": 0.0
+            }, 
+            "POINT": {
+                "位置": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }
+            }, 
+            "PROJECTILE": {
+                "投射物类型": 0
+            }, 
+            "PROJECTILE_ENTITY": {
+                "projectile": 0
+            }, 
+            "UNIT_ENTITY": {
+                "所有者": 0
+            }
+        }, 
+        {
+            "projectile": 0, 
+            "位置": 0, 
+            "所有者": 0, 
+            "投射物类型": 0, 
+            "朝向": 0, 
+            "高度": 0
+        }, 
+        [
+            "投射物类型", 
+            "位置", 
+            "projectile", 
+            "高度", 
+            "所有者", 
+            "朝向"
+        ]
+    ]
+}
