@@ -1,7 +1,13 @@
 local Lang = {}
 local LangTemplate = {}
-LangTemplate["lang_qiuxian_des"] = GameAPI.get_text_config('#122051817#lua')
-LangTemplate["lang_liangcao_des"] = GameAPI.get_text_config('#-264945463#lua')
+LangTemplate["lang_qiuxian_des"] = "#d9d9d9[当前等级#20e60flevel#d9d9d9] \
+每10秒获得#20e60f num #d9d9d9份求贤令 \
+[下一等级#20e60flevel_next#d9d9d9] \
+每10秒获得#20e60f num_next #d9d9d9份求贤令"
+LangTemplate["lang_liangcao_des"] = "#d9d9d9[当前等级#20e60flevel#d9d9d9] \
+拥有#20e60f num #d9d9d9粮草上限 \
+[下一等级#20e60flevel_next#d9d9d9] \
+拥有#20e60f num_next #d9d9d9粮草上限"
 LangTemplate["lang_tiaozhanshibai"] = GameAPI.get_text_config('#1809989295#lua')
 LangTemplate["lang_jueweitiaozhan_chenggong"] = GameAPI.get_text_config('#1919439813#lua')
 LangTemplate["lang_wufatiaozhan_zhanxunbuzu"] = GameAPI.get_text_config('#2146479411#lua')

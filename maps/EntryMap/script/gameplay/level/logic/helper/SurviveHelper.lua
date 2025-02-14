@@ -509,7 +509,7 @@ function SurviveHelper.calculateDamagePure(params)
     elseif damageType == y3.SurviveConst.DAMAGE_TYPE_2 then
         labelRates[#labelRates + 1] = { sourceUnit:get_attr("穿刺伤害加成") / 100, GameAPI.get_text_config('#30000001#lua59') }
     elseif damageType == y3.SurviveConst.DAMAGE_TYPE_3 then
-        labelRates[#labelRates + 1] = { sourceUnit:get_attr("魔法伤害加成") / 100, GameAPI.get_text_config('#30000001#lua43') }
+        labelRates[#labelRates + 1] = { sourceUnit:get_attr("zcm123") / 100, GameAPI.get_text_config('#30000001#lua43') }
     elseif damageType == y3.SurviveConst.DAMAGE_TYPE_4 then
         labelRates[#labelRates + 1] = { sourceUnit:get_attr("攻城伤害加成") / 100, GameAPI.get_text_config('#30000001#lua53') }
     elseif damageType == y3.SurviveConst.DAMAGE_TYPE_5 then

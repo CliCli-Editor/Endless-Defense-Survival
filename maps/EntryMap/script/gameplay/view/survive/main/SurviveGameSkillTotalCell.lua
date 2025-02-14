@@ -53,15 +53,15 @@ function SurviveGameSkillTotalCell:getDamageAddText(damageType)
     local mainActor = playerData:getMainActor()
     local mainUnit = mainActor:getUnit()
     if damageType == y3.SurviveConst.DAMAGE_TYPE_1 then
-        return { mainUnit:get_attr("普通伤害加成"), "金属伤害加成" }
+        return { mainUnit:get_attr("普通伤害加成"), GameAPI.get_text_config('#30000001#lua56') }
     elseif damageType == y3.SurviveConst.DAMAGE_TYPE_2 then
-        return { mainUnit:get_attr("穿刺伤害加成"), "穿刺伤害加成" }
+        return { mainUnit:get_attr("穿刺伤害加成"), GameAPI.get_text_config('#550155030#lua') }
     elseif damageType == y3.SurviveConst.DAMAGE_TYPE_3 then
-        return { mainUnit:get_attr("魔法伤害加成"), "魔法伤害加成" }
+        return { mainUnit:get_attr("魔法伤害加成"), GameAPI.get_text_config('#30000001#lua43') }
     elseif damageType == y3.SurviveConst.DAMAGE_TYPE_4 then
-        return { mainUnit:get_attr("攻城伤害加成"), "攻城伤害加成" }
+        return { mainUnit:get_attr("攻城伤害加成"), GameAPI.get_text_config('#30000001#lua53') }
     elseif damageType == y3.SurviveConst.DAMAGE_TYPE_5 then
-        return { mainUnit:get_attr("混乱伤害加成"), "混乱伤害加成" }
+        return { mainUnit:get_attr("混乱伤害加成"), GameAPI.get_text_config('#30000001#lua70') }
     end
 end
 
